@@ -1,0 +1,162 @@
+body {
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    background-color: #4d0654;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#pfp{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+
+.description {
+    text-align: start;
+    font-size: 20px;
+    margin-bottom: 5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgray;
+    margin-left: 50px;
+
+}
+
+.txt-banner {
+    margin-left: 150px; 
+    width: 500px;
+    border-radius: 40px;
+    background-color: black;
+    margin-right: 100px;
+}
+
+.name {
+    color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.gitCon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.git {
+    position: absolute;
+    height: 40px;
+    margin-left: 185px;
+    margin-bottom: 20px;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+    border-radius: 100%;
+}
+
+.git:hover {
+    transform: translateY(-3px);
+    border: 0px solid black;
+    box-shadow: 2px 4px 20px rgba(255, 255, 255, 0.5);
+    cursor: pointer
+}
+
+
+.snakeBG {
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 400px;
+    width: 700px;
+    background-color: #FFE0C2;
+    position: absolute;
+    border: #ffbd7b 5px solid;
+}
+
+.snakeTitle {
+    color: black;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.snakeDesc {
+    color: rgb(86, 86, 86);
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px; 
+
+}
+
+.btnCon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.snakeBtn {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+
+
+.imgCon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.snake {
+    margin-top: 50px;
+    margin-right: 125px;
+    width: 425px;
+    border-radius: 25px;
+    border: #ffbd7b 5px solid;
+}
+
+.bgCon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quitBG {
+    position: absolute;
+    border-radius: 25px;
+    margin-top: 100px;
+    height: 400px;
+    width: 700px;
+    margin-right: 125px;
+    background-color: #FFE0C2;
+    border: #ffbd7b 5px solid;
+}
+
+.imgCon2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quit {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 25px;
+    border: #ffbd7b 5px solid;
+    margin-left: 200px;
+}
