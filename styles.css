@@ -59,7 +59,7 @@ body {
     position: absolute;
     height: 40px;
     margin-left: 185px;
-    margin-bottom: 20px;
+    margin-top: -61px;
     transition: transform 0.3 ease, box-shadow 0.3 ease;
     border-radius: 100%;
 }
